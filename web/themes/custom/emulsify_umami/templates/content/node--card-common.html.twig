@@ -1,0 +1,13 @@
+{% set card_modifiers = modifiers|default(["grid-item"])%}
+
+{% embed "@molecules/card/01-card.twig" with {
+  card_modifiers: card_modifiers,
+  card_title: label,
+  card_body: content.body,
+  card_link_url: url,
+  card_link_text: 'View ' ~ node.type.entity.label
+} %}
+  {% block card_img %}
+    {{ content.field_image }}
+  {% endblock %}
+{% endembed %}

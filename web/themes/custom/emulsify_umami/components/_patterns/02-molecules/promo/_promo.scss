@@ -1,0 +1,41 @@
+.promo {
+  color: $white;
+  text-align: center;
+  overflow: hidden;
+
+  @include large {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    text-align: left;
+    height: 200px;
+
+    &__image {
+      grid-column: 1;
+      margin: 0;
+    }
+
+    &__content {
+      grid-column: 2;
+    }
+  }
+
+  &__image {
+    @include trailer(1);
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  &__title {
+    @include heading-medium;
+  }
+
+  &__link a {
+    color: white;
+  }
+
+  .pl & {
+    background: $color-layout--footer;
+  }
+}
