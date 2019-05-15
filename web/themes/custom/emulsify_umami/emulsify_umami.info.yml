@@ -1,12 +1,14 @@
-name: emulsify_umami_umami
+name: emulsify_umami
 type: theme
-description: Theme based on <a href="http://emulsify.info">Emulsify</a>.
+description: Umami theme based on <a href="http://emulsify.info">Emulsify</a>.
 base theme: stable
 core: 8.x
 
 # Libraries (These are loaded on every page. Use https://www.drupal.org/developing/api/8/assets#twig whenever possible.)
 libraries:
   - 'emulsify_umami/global'
+  - umami_pl/messages
+  - umami_pl/webfonts
   # - 'emulsify_umami/typekit'
 
 # Libraries override allows you to remove libraries added by other projects.
@@ -22,11 +24,27 @@ libraries:
 ckeditor_stylesheets:
   - dist/style.css
 
+#regions:
+#  header: Header
+#  content: Content  # the content region is required
+#  sidebar: 'Sidebar'
+#  footer: Footer
+
 regions:
+  pre_header: Pre-header
   header: Header
-  content: Content  # the content region is required
-  sidebar: 'Sidebar'
+  highlighted: Highlighted
+  tabs: Tabs
+  banner_top: 'Banner Top'
+  breadcrumbs: Breadcrumbs
+  page_title: 'Page Title'
+  content: Content
+  sidebar: Sidebar
+  content_bottom: 'Content Bottom'
   footer: Footer
+  bottom: Bottom
+  page_top: 'Page top' # Needed by Drupal Core
+  page_bottom: 'Page bottom' # Needed by Drupal Core
 
 # Remove unwanted system stylesheets
 # stylesheets-remove:

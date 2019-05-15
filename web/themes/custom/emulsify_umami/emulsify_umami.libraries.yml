@@ -20,3 +20,8 @@ accordion:
 tabs:
   js:
     dist/02-molecules/menus/tabs/tabs.js: {}
+
+webfonts:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Open+Sans|Scope+One': { type: external, minified: true }

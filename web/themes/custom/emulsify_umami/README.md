@@ -1,6 +1,6 @@
 [![Four Kitchens](https://img.shields.io/badge/4K-Four%20Kitchens-35AA4E.svg)](https://fourkitchens.com/)
 
-# emulsify_umami_umami: Pattern Lab + Drupal 8
+# emulsify_umami: Pattern Lab + Drupal 8
 
 Component-driven prototyping tool using [Pattern Lab v2](http://patternlab.io/) automated via Gulp/NPM. Also serves as _a starterkit_ Drupal 8 theme.
 
@@ -14,7 +14,7 @@ Component-driven prototyping tool using [Pattern Lab v2](http://patternlab.io/) 
 
 ## Prototyping (separate from Drupal, Wordpress, etc.)
 
-emulsify_umami_umami supports both NPM and YARN.
+emulsify_umami supports both NPM and YARN.
 
 Install with NPM:
 `composer create-project fourkitchens/emulsify_umami:^3.0 --stability dev --no-interaction emulsify_umami && cd emulsify_umami && npm install`
@@ -38,7 +38,7 @@ If you're not using a Composer-based Drupal install (e.g. tarball download from 
 
 Troubleshooting Installation: See [Drupal Installation FAQ](https://github.com/fourkitchens/emulsify_umami/wiki/Installation#drupal-installation-faq).
 
-_Note: Once you've created your custom theme, you can remove emulsify_umami_umami as a dependency of your project. If you'd like to get updates as we push them, solely for educational/best-practice information, feel free to leave it in and receive the updates. Updating emulsify_umami_umami will not affect your custom theme in any way._
+_Note: Once you've created your custom theme, you can remove emulsify_umami as a dependency of your project. If you'd like to get updates as we push them, solely for educational/best-practice information, feel free to leave it in and receive the updates. Updating emulsify_umami will not affect your custom theme in any way._
 
 ## Starting Pattern Lab and watch task
 
@@ -51,7 +51,7 @@ The `start` command spins up a local server, compiles everything (runs all requi
 ## Highlighted Features
 
 <table><tbody>
-<tr><td>Lightweight</td><td>✔</td><td>emulsify_umami_umami is focused on being as lightweight as possible.</td></tr>
+<tr><td>Lightweight</td><td>✔</td><td>emulsify_umami is focused on being as lightweight as possible.</td></tr>
 <tr><td>SVG sprite support </td><td><strong>✔</strong></td><td>Automated support for creating SVG sprites mixins/classes.</td></tr>
 <tr><td>Stock Drupal templates </td><td><strong>✔</strong></td><td>Templates from Stable theme - see /templates directory</td></tr>
 <tr><td>Stock Components </td><td><strong>✔</strong></td><td>with Drupal support built-in (https://github.com/fourkitchens/emulsify_umami#emulsify_umamis-built-in-components-with-drupal-support)</td></tr>
@@ -59,10 +59,10 @@ The `start` command spins up a local server, compiles everything (runs all requi
 <tr><td>Automated Github Deployment </td><td><strong>✔</strong></td><td>Deploy your Pattern Lab instance as a Github page (https://github.com/fourkitchens/emulsify_umami/wiki/Gulp-Config#deployment)</td></tr>
 </tbody></table>
 
-<h3 id="components">emulsify_umami_umami's Built in Components with Drupal support</h3>
+<h3 id="components">emulsify_umami's Built in Components with Drupal support</h3>
 Forms, tables, video, accordion, cards, breadcrumbs, tabs, pager, status messages, grid
 
-View a [demo of these default emulsify_umami_umami components](https://fourkitchens.github.io/emulsify_umami/pattern-lab/public/).
+View a [demo of these default emulsify_umami components](https://fourkitchens.github.io/emulsify_umami/pattern-lab/public/).
 
 ## Documentation
 
@@ -72,7 +72,7 @@ Documentation is currently provided in [the Wiki](https://github.com/fourkitchen
 
 See [Orientation](https://github.com/fourkitchens/emulsify_umami/wiki/Orientation)
 
-We have a [series of videos](https://www.youtube.com/playlist?list=PLO9S6JjNqWsGMQLDfE8Ekt0ryrGa3g4km) for you to learn more about emulsify_umami_umami.
+We have a [series of videos](https://www.youtube.com/playlist?list=PLO9S6JjNqWsGMQLDfE8Ekt0ryrGa3g4km) for you to learn more about emulsify_umami.
 
 #### For Designers (Prototyping)
 
