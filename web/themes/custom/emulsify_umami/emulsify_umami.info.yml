@@ -7,8 +7,8 @@ core: 8.x
 # Libraries (These are loaded on every page. Use https://www.drupal.org/developing/api/8/assets#twig whenever possible.)
 libraries:
   - 'emulsify_umami/global'
-  - umami_pl/messages
-  - umami_pl/webfonts
+  - 'emulsify_umami/messages'
+  - 'emulsify_umami/webfonts'
   # - 'emulsify_umami/typekit'
 
 # Libraries override allows you to remove libraries added by other projects.
@@ -31,18 +31,19 @@ ckeditor_stylesheets:
 #  footer: Footer
 
 regions:
-  pre_header: Pre-header
-  header: Header
-  highlighted: Highlighted
-  tabs: Tabs
+  pre_header: 'Pre-header'
+  header: 'Header'
+  stam: 'Stam'
+  highlighted: 'Highlighted'
+  tabs: 'Tabs'
   banner_top: 'Banner Top'
-  breadcrumbs: Breadcrumbs
+  breadcrumbs: 'Breadcrumbs'
   page_title: 'Page Title'
-  content: Content
-  sidebar: Sidebar
+  content: 'Content'
+  sidebar: 'Sidebar'
   content_bottom: 'Content Bottom'
-  footer: Footer
-  bottom: Bottom
+  footer: 'Footer'
+  bottom: 'Bottom'
   page_top: 'Page top' # Needed by Drupal Core
   page_bottom: 'Page bottom' # Needed by Drupal Core
 
