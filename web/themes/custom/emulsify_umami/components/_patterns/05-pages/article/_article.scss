@@ -1,5 +1,5 @@
 article {
-  @include trailer(2);
+  // @include trailer(2);
 
   padding: 2.37rem;
 
@@ -38,6 +38,6 @@ article {
   }
 
   .layout--sidebar & {
-    @include trailer(1);
+    // @include trailer(1);
   }
 }

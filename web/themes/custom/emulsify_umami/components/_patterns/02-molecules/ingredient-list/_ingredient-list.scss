@@ -6,7 +6,7 @@
 
   .field__label {
     @include heading-large;
-    @include heading-underlined;
+    // @include heading-underlined;
   }
 
   .field__items {

@@ -1,12 +1,12 @@
 .recipe-banner {
-  @include full-width;
-  @include trailer(2);
+  // @include full-width;
+  // @include trailer(2);
 
   background-image: url(../components/images/veggie-pasta-bake-hero-umami.jpg);
   background-size: 0 0;
 
   @include large {
-    @include trailer(3);
+    // @include trailer(3);
 
     background-color: #464646;
     background-size: cover;
@@ -15,7 +15,7 @@
   }
 
   &__title {
-    @include heading-large;
+    // @include heading-large;
 
     font-size: 1.424rem;
   }

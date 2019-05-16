@@ -6,15 +6,15 @@
 }
 
 .collection__title {
-  @include padding-leader(1);
-  @include heading-large;
+  // @include padding-leader(1);
+  // @include heading-large;
 
   text-align: center;
 }
 
 .collection__list {
-  @include padding-leader(1);
-  @include padding-trailer(2);
+  // @include padding-leader(1);
+  // @include padding-trailer(2);
 
   margin: 0 auto;
 
@@ -30,7 +30,7 @@
 }
 
 .collection__link {
-  @include trailer(0.5);
+  // @include trailer(0.5);
 
   color: $white;
   text-decoration: none;

@@ -11,14 +11,14 @@
   }
 
   h2 {
-    @include heading-medium;
+    // @include heading-medium;
 
     color: white;
     margin-bottom: 0.5em;
   }
 
   nav {
-    @include padding-trailer(1);
+    // @include padding-trailer(1);
 
     text-align: center;
 
