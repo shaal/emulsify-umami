@@ -1,0 +1,20 @@
+uuid: 818c3d2d-e844-4941-8cd9-a6ad6654f3d5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - emulsify_umami
+_core:
+  default_config_hash: q6m4raFgRjMQbo7CkBMUIW1dRS1ix0XNoex2S2NV8sM
+id: emulsify_umami_page_title
+theme: emulsify_umami
+region: page_title
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

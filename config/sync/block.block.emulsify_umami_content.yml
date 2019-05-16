@@ -1,0 +1,22 @@
+uuid: 87c77b91-99b3-413b-8fba-fb0d4470293e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - emulsify_umami
+_core:
+  default_config_hash: fAAou3IaVWP7gVizy4k7aJ4njwWF5WnTnCVW68duc6Q
+id: emulsify_umami_content
+theme: emulsify_umami
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

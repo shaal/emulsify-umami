@@ -1,0 +1,8 @@
+uuid: cdc9f121-0f99-42cd-a631-255850d66eb8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: Default

@@ -1,0 +1,17 @@
+uuid: 6a15064c-6c33-4d64-b74d-7bd783c0e579
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PCCLxoHsTUcZQuXt7VXrtaNXnh9LCpf9hfHNPazCKlI
+name: medium_8_7
+label: 'Medium 8:7 (266x236)'
+effects:
+  a7d919ee-5a34-476b-b893-c9649a621e60:
+    uuid: a7d919ee-5a34-476b-b893-c9649a621e60
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      anchor: center-center
+      width: 266
+      height: 236
